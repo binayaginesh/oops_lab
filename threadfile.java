@@ -10,7 +10,7 @@ import java.io.FileWriter;
 class randomnumber extends Thread{
    public void run(){
    Random rd = new Random();
-   for(int i=0;i<5;i++){
+   for(int i=0;i<20;i++){
      int randomint = rd.nextInt(100);
      System.out.println("Random integer "+randomint);
      
